@@ -1,0 +1,302 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paytmnavbar {
+
+    padding: 2% 3% 2% 3%;
+    /* position: fixed; */
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.paytmnavbar a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.paytmnavbar a button {
+    background-color: #002970;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 15px 5px 15px;
+    margin-top: -3%;
+}
+
+.section1 {
+    background-color: #e8f8fd;
+    padding: 2% 5% 2% 5%;
+}
+
+.part1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.travels {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.travels span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.part2 {
+    background-color: white;
+    padding: 1.5%;
+    margin: 1%
+}
+
+.part21 span input {
+    scale: 1.3;
+    margin-right: 5px;
+}
+
+.part21 span {
+    margin-right: 3%;
+}
+
+.part22 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.8%;
+    align-items: center;
+}
+
+.part22 button {
+    background-color: #00baf2;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 20px 20px 20px 20px;
+    border-radius: 7px;
+}
+
+.part23 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin: 1%;
+    align-items: center;
+}
+
+.part23 span {
+    margin-right: 3%;
+}
+
+.bor {
+    border: 0.6px solid grey;
+    padding: 0.7%;
+}
+
+.part3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.part3 img {
+    width: 30%;
+    margin-right: 3%;
+    border-radius: 10px;
+}
+
+.sec2 {
+    padding: 1%;
+    background-color: #f7f9fc;
+}
+
+.recharges {
+    margin: 1% 2%;
+    background-color: white;
+    padding: 1.5%;
+    width: 45%;
+}
+
+.icons img {
+    width: 30%;
+    aspect-ratio: 3/4;
+}
+
+.mobilerecharge {
+    width: 85%;
+}
+
+.recharges .ic {
+    margin: 2% 0%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons:hover {
+    scale: 1.0;
+    box-shadow: 1px 2px 4px grey;
+    border-radius: 5px;
+    border: none;
+    padding: 1%;
+}
+
+.ic {
+    display: flex;
+    flex-direction: row;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.sec3 {
+    padding: 1%;
+    background-color: #f7f9fc;
+}
+
+.box {
+    margin: 1% 3%;
+    background-color: white;
+    padding: 3% 10%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.log {
+    width: 46%;
+}
+
+.pay img {
+    width: 30%;
+}
+
+.pay h1 {
+    font-size: 44px;
+    margin: 3% 0%;
+}
+
+.pay p {
+    font-size: 19px;
+    margin: 3% 0%;
+}
+
+.learnb button {
+    background-color: #002970;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 35px;
+}
+
+.sec4 {
+    padding: 1%;
+    background-color: #f7f9fc;
+}
+.sec5{
+    padding: 1%;
+    background-color: #f7f9fc;
+    /* margin: 1% 3%; */
+}
+.box2{
+    background: #002970;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    font-weight: bold; 
+    margin: 1% 3%; 
+}
+.box2 h4{
+    margin-left: 3%;
+}
+.box2 button{
+    /* width: 25%; */
+    border-radius: 50px;
+    padding: 0.5%;
+    background-color: #002970;
+    color: whitesmoke;
+    margin-left: 40%;
+}
+.sec6{
+    padding: 1%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+.box3{
+    margin: 1% 3%;
+    padding: 3% 9%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.stores2 button{
+    width: 30%;
+    border-radius: 70px;
+    padding: 0.5%;
+    background-color: #002970;
+    color: #fff;
+}
+.pay2 h1{
+    font-size: 30px;
+    margin: 2% 0%;
+}
+.pay2 p{
+    font-size: 16px;
+    margin:2% 0% ;
+}
+.box4{
+    margin: 1% 3%;
+    padding: 3% 9%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.stores3 button{
+    width: 30%;
+    border-radius: 70px;
+    padding: 0.5%;
+    background-color: #002970;
+    color: #fff;
+}
+.pay3 h1{
+    font-size: 30px;
+    margin: 2% 0%;
+}
+.pay3 p{
+    font-size: 16px;
+    margin:2% 0% ;
+}
+.footer p{
+    display: inline;
+    color: grey;
+}
